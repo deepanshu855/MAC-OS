@@ -1,0 +1,44 @@
+.window {
+  height: 300px;
+  width: 400px;
+
+  background-color: #060606;
+  border-radius: 0.75rem;
+  overflow: hidden;
+
+  color: rgb(168, 168, 168);
+  font-weight: 500;
+
+  .nav {
+    padding-inline: 0.75rem;
+    padding-block: 0.5rem;
+
+    border-bottom: 1px solid rgba(245, 245, 245, 0.24);
+
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+
+    .dots {
+      display: flex;
+      gap: 0.25rem;
+
+      .dot {
+        height: 12px;
+        width: 12px;
+        background-color: white;
+
+        border-radius: 50%;
+      }
+      .red {
+        background-color: #eb3535;
+      }
+      .green {
+        background-color: rgb(247, 247, 81);
+      }
+      .yellow {
+        background-color: rgb(27, 228, 0);
+      }
+    }
+  }
+}
