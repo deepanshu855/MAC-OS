@@ -5,13 +5,15 @@ import Navbar from "./components/Navbar";
 import GithubWindow from "./components/windows/GithubWindow";
 import Notes from "./components/windows/Notes";
 import Resume from "./components/windows/Resume";
+import Spotify from "./components/windows/Spotify";
 
 const App = () => {
   return <main>
     <Navbar />
     {/* <GithubWindow /> */}
-    <Notes />
-    <Resume />
+    {/* <Notes /> */}
+    {/* <Resume /> */}
+    <Spotify />
     <Dock />
   </main>;
 };
