@@ -6,14 +6,12 @@ import GithubWindow from "./components/windows/GithubWindow";
 import Notes from "./components/windows/Notes";
 import Resume from "./components/windows/Resume";
 import Spotify from "./components/windows/Spotify";
+import Cli from "./components/windows/Cli";
 
 const App = () => {
   return <main>
     <Navbar />
-    {/* <GithubWindow /> */}
-    {/* <Notes /> */}
-    {/* <Resume /> */}
-    <Spotify />
+    <Cli />
     <Dock />
   </main>;
 };

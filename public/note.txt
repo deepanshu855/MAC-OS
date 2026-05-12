@@ -1,7 +1,7 @@
 /**
  * @file: profile.config.ts
- * @author: Engineering Portfolio
- * @summary: A high-performance full-stack engineer.
+ * @author: Deepanshu Sharma
+ * @summary: A passionate full-stack developer building modern web experiences.
  */
 
 // --------------------------------------------------
@@ -10,75 +10,105 @@
 
 const TECH_STACK = {
   frontend: [
-    "React.js",    // 100%
-    "Next.js",     // 95%
-    "TailwindCSS", // 90%
-    "Three.js",    // 70%
+    "React.js",
+    "Next.js",
+    "TailwindCSS",
+    "SCSS",
+    "JavaScript",
   ],
+
   backend: [
-    "Node.js",     // 90%
-    "PostgreSQL",  // 85%
-    "Redis",       // 75%
-    "Docker",      // 80%
+    "Node.js",
+    "Express.js",
+    "MongoDB",
   ],
-  tools: ["AWS", "Git", "Figma", "Linux"]
+
+  languages: [
+    "Java",
+    "JavaScript",
+    "Python",
+  ],
+
+  currentlyLearning: [
+    "Data Structures & Algorithms in Java",
+    "Advanced MERN Stack",
+  ],
+
+  tools: ["Git", "Figma", "Linux"]
 };
 
 // --------------------------------------------------
-// 2. EXPERIENCE LOG (Reverse Chronological)
+// 2. DEVELOPER JOURNEY
 // --------------------------------------------------
 
-class ProfessionalHistory {
-  
-  /** * CURRENT ROLE
-   * @period 2023 - Present 
+class DeveloperJourney {
+
+  /**
+   * CURRENT FOCUS
+   * @period 2025 - Present
    */
-  public async TechFlow_Systems(): Promise<Impact> {
-    const role = "Senior Full-Stack Engineer";
-    
-    // Key Achievements
-    const optimized = await api.optimize({ strategy: "Redis Caching" });
-    const latencyReduction = "40%";
-    
-    const leadership = this.mentor(["Jr. Dev 1", "Jr. Dev 2", "Jr. Dev 3"]);
-    const architecture = "Monolith -> Microservices Migration";
-    
-    return { role, optimized, architecture, leadership };
+  public async CurrentFocus(): Promise<Goals> {
+
+    const role = "Full-Stack Developer & CSE Student";
+
+    const learning = [
+      "MERN Stack Development",
+      "DSA with Java",
+      "UI/UX Design",
+    ];
+
+    const projects = [
+      "macOS Clone using React",
+      "Cloudinary AI Showcase",
+      "Alumni Network Platform",
+    ];
+
+    const target = "Becoming a well-rounded Full-Stack Engineer";
+
+    return { role, learning, projects, target };
   }
 
-  /** * PREVIOUS ROLE
-   * @period 2021 - 2023
+  /**
+   * DEVELOPMENT INTERESTS
    */
-  public PixelPerfect_Studios(): void {
-    this.role = "Frontend Developer";
-    this.focus = "High-Fidelity Animations";
-    
-    // Implemented GSAP scroll-triggers for 15+ clients
-    // Improved Lighthouse Performance Scores: 65 -> 98
+  public interests(): void {
+
+    this.frontend = "Modern UI/UX & Interactive Interfaces";
+    this.backend = "Scalable MERN Applications";
+    this.design = "Minimal & Clean User Experiences";
+
+    // Building responsive and animated web apps
+    // Exploring React architecture and performance
   }
 }
 
 // --------------------------------------------------
-// 3. COMPETITIVE ACHIEVEMENTS
+// 3. PROJECT HIGHLIGHTS
 // --------------------------------------------------
 
-interface HackathonWin {
-  rank: number;
-  event: string;
-  project: string;
+interface Project {
+  name: string;
+  stack: string;
+  focus: string;
 }
 
-const trophyCabinet: HackathonWin[] = [
+const featuredProjects: Project[] = [
   {
-    rank: 1,
-    event: "Global AI Hackathon 2024",
-    project: "EcoVision (Computer Vision Waste Segregation)",
-    // Prize: $5,000
+    name: "macOS Clone",
+    stack: "React + SCSS",
+    focus: "Desktop-style UI & Window Management",
   },
+
   {
-    rank: 500, // Top 500 Global
-    event: "Google Code Jam 2023",
-    project: "Algorithm Optimization (Dynamic Programming)",
+    name: "Cloudinary AI Showcase",
+    stack: "Next.js + Prisma + TailwindCSS",
+    focus: "AI Media Optimization Platform",
+  },
+
+  {
+    name: "Alumni Network Platform",
+    stack: "Java + MySQL",
+    focus: "College Alumni Management System",
   }
 ];
 
@@ -87,19 +117,24 @@ const trophyCabinet: HackathonWin[] = [
 // --------------------------------------------------
 
 const education = new Map<string, string>([
-  ["Stanford University", "MS Computer Science (3.9 GPA)"],
-  ["MIT World Peace Univ", "B.Tech Information Tech (8.8 CGPA)"]
+  ["SRM University", "B.Tech Computer Science Engineering (4th Year)"],
 ]);
 
-export default new ProfessionalHistory();
+export default new DeveloperJourney();
 
 
-```bash
+/*
 # TERMINAL OUTPUT
 # ---------------------------------------
+
 $ user --status
-> Status: Open to Opportunities
-> Location: Global / Remote
-> Loading Assets... [||||||||||] 100%
+
+> Name: Deepanshu Sharma
+> Role: Full-Stack Developer
+> Education: 4th Year B.Tech CSE @ SRM University
+> Skills: MERN | TailwindCSS | SCSS | Figma
+> Languages: Java | JavaScript | Python
+> Current Focus: DSA in Java & Full-Stack Development
+> Status: Building Projects...
 > Ready.
-```
+*/
