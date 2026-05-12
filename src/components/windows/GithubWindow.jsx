@@ -4,9 +4,9 @@ import githubData from "../../assets/github.json";
 import GithubCard from "../GithubCard";
 import "../../scss/github.scss";
 
-const GithubWindow = () => {
+const GithubWindow = ({windowName, setWindowsState}) => {
   return (
-    <MacWindow>
+    <MacWindow windowName={windowName} setWindowsState={setWindowsState}>
       <div className="cards">
         {githubData.map((project, idx) => {
           return <GithubCard data={project} />;

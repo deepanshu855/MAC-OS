@@ -9,6 +9,8 @@
   color: rgb(168, 168, 168);
   font-weight: 500;
 
+  cursor: default;
+
   .nav {
     padding-inline: 0.75rem;
     padding-block: 0.5rem;
@@ -32,6 +34,7 @@
       }
       .red {
         background-color: #eb3535;
+        cursor: pointer;
       }
       .green {
         background-color: rgb(247, 247, 81);
